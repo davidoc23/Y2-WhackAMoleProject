@@ -1,0 +1,15 @@
+C:\Users\David\source\repos\WackAMole\WackAMole\WackAMole\bin\Debug\netstandard2.0\WackAMole.deps.json
+C:\Users\David\source\repos\WackAMole\WackAMole\WackAMole\bin\Debug\netstandard2.0\WackAMole.dll
+C:\Users\David\source\repos\WackAMole\WackAMole\WackAMole\bin\Debug\netstandard2.0\ref\WackAMole.dll
+C:\Users\David\source\repos\WackAMole\WackAMole\WackAMole\bin\Debug\netstandard2.0\WackAMole.pdb
+C:\Users\David\source\repos\WackAMole\WackAMole\WackAMole\obj\Debug\netstandard2.0\WackAMole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David\source\repos\WackAMole\WackAMole\WackAMole\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\David\source\repos\WackAMole\WackAMole\WackAMole\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\David\source\repos\WackAMole\WackAMole\WackAMole\obj\Debug\netstandard2.0\WackAMole.AssemblyInfoInputs.cache
+C:\Users\David\source\repos\WackAMole\WackAMole\WackAMole\obj\Debug\netstandard2.0\WackAMole.AssemblyInfo.cs
+C:\Users\David\source\repos\WackAMole\WackAMole\WackAMole\obj\Debug\netstandard2.0\WackAMole.csproj.CoreCompileInputs.cache
+C:\Users\David\source\repos\WackAMole\WackAMole\WackAMole\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\David\source\repos\WackAMole\WackAMole\WackAMole\obj\Debug\netstandard2.0\WackAMole.dll
+C:\Users\David\source\repos\WackAMole\WackAMole\WackAMole\obj\Debug\netstandard2.0\ref\WackAMole.dll
+C:\Users\David\source\repos\WackAMole\WackAMole\WackAMole\obj\Debug\netstandard2.0\WackAMole.pdb
+C:\Users\David\source\repos\WackAMole\WackAMole\WackAMole\obj\Debug\netstandard2.0\WackAMole.csproj.AssemblyReference.cache

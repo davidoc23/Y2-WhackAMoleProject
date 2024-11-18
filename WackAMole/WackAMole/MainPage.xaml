@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WackAMole.MainPage">
+
+    <StackLayout x:Name="SLPageContent" 
+                 HorizontalOptions="Center" VerticalOptions="Center">
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Score: " Margin="2, 2, 1, 2" FontAttributes="Bold"/>
+            <Label x:Name="Label_Score" Text="0" Margin="1, 2, 2, 2"/>
+        </StackLayout>
+
+        <Label x:Name="Label1" WidthRequest="100" HeightRequest="100"/>
+        
+        <Grid x:Name="OverallContentGrid" WidthRequest="450" HeightRequest="450">
+            <Image Source="back_ground1.png"
+                   WidthRequest="400" HeightRequest="500"
+                  />
+
+            <Grid x:Name="GameGrid3"
+                  HorizontalOptions="Center" VerticalOptions="Center"
+                  HeightRequest="300" WidthRequest="300"
+                      IsVisible="True" IsEnabled="True">
+
+                <BoxView HeightRequest="300" WidthRequest="300"
+                             HorizontalOptions="Center" VerticalOptions="Center">
+                    <BoxView.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1"/>
+                    </BoxView.GestureRecognizers>
+                </BoxView>
+
+                <ImageButton Source="mole.png"
+                                 x:Name="mole3"
+                                 Grid.Row="1" Grid.Column="0"
+                                 HorizontalOptions="Center" VerticalOptions="Center"
+                                 HeightRequest="60" WidthRequest="60"
+                                 Clicked="ImageButton_Clicked"/>
+
+            </Grid>
+            <!--End Gamegrid 3x3-->
+
+            <Grid x:Name="GameGrid5" WidthRequest="300" HeightRequest="300" IsVisible="False" IsEnabled="False">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <ImageButton Source="mole.png"
+                                 x:Name="mole5"
+                                 Grid.Row="2" Grid.Column="1"
+                                 HorizontalOptions="Center" VerticalOptions="Center"
+                                 HeightRequest="40" WidthRequest="40"
+                                 Clicked="ImageButton_Clicked"/>
+
+            </Grid>
+            <!--End GameGrid 5x5-->
+
+
+        </Grid>
+        <!--end OverallContentGrid-->
+
+        <Button x:Name="Btn_Layout" Text="5 x 5"
+                HorizontalOptions="Center" VerticalOptions="Center" 
+                Clicked="Btn_Layout_Clicked"
+                />
+        <Button x:Name="Reset" Text="Reset Game" Clicked="Reset_Clicked"
+                HorizontalOptions="Center" VerticalOptions="Center"
+               />
+    </StackLayout>
+
+
+</ContentPage>

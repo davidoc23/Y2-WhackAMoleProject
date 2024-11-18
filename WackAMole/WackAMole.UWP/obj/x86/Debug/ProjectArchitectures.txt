@@ -1,0 +1,1 @@
+C:\Users\David\source\repos\WackAMole\WackAMole\WackAMole.UWP\WackAMole.UWP.csproj;x86
